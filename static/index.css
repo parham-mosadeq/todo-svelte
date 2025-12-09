@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-transform: capitalize;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  font-size: 18px;
+}
+
+body {
+  font-family: sans-serif;
+}
