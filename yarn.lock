@@ -371,6 +371,16 @@ postcss@^8.5.6:
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
+prettier-plugin-svelte@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.npmjs.org/prettier-plugin-svelte/-/prettier-plugin-svelte-3.4.1.tgz"
+  integrity sha512-xL49LCloMoZRvSwa6IEdN2GV6cq2IqpYGstYtMT+5wmml1/dClEoI0MZR78MiVPpu6BdQFfN0/y73yO6+br5Pg==
+
+prettier@^3.0.0, prettier@^3.7.4:
+  version "3.7.4"
+  resolved "https://registry.npmjs.org/prettier/-/prettier-3.7.4.tgz"
+  integrity sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==
+
 readdirp@^4.0.1:
   version "4.1.2"
   resolved "https://registry.npmjs.org/readdirp/-/readdirp-4.1.2.tgz"
@@ -444,7 +454,7 @@ svelte-check@^4.3.4:
     picocolors "^1.0.0"
     sade "^1.7.4"
 
-"svelte@^4.0.0 || ^5.0.0-next.0", svelte@^5.0.0, svelte@^5.43.8:
+"svelte@^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0", "svelte@^4.0.0 || ^5.0.0-next.0", svelte@^5.0.0, svelte@^5.43.8:
   version "5.45.8"
   resolved "https://registry.npmjs.org/svelte/-/svelte-5.45.8.tgz"
   integrity sha512-1Jh7FwVh/2Uxg0T7SeE1qFKMhwYH45b2v53bcZpW7qHa6O8iU1ByEj56PF0IQ6dU4HE5gRkic6h+vx+tclHeiw==

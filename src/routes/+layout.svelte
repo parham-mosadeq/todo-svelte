@@ -1,11 +1,11 @@
 <script lang="ts">
-  import "../app.css";
+  import '../app.css';
 
-	let { children } = $props();
+  let { children } = $props();
 </script>
 
 <svelte:head>
-	<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/index.css" />
 </svelte:head>
 
 {@render children()}

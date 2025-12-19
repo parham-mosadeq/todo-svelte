@@ -1,36 +1,37 @@
 <script>
-  const todos=[
-
-  {
-    id:1,
-    title:"SOme random job",
-    desc:"SOMSFSDFDF:SJKDF:LSKDJF",
-    isComplete:false
-  },
-{
-    id:1,
-    title:"SOme random job",
-    desc:"SOMSFSDFDF:SJKDF:LSKDJF",
-    isComplete:true
-  },{
-    id:1,
-    title:"SOme random job",
-    desc:"SOMSFSDFDF:SJKDF:LSKDJF",
-    isComplete:false
-  },{
-    id:1,
-    title:"SOme random job",
-    desc:"SOMSFSDFDF:SJKDF:LSKDJF",
-    isComplete:true
-  },
-  ]
+  const todos = [
+    {
+      id: 1,
+      title: 'SOme random job',
+      desc: 'SOMSFSDFDF:SJKDF:LSKDJF',
+      isComplete: false,
+    },
+    {
+      id: 1,
+      title: 'SOme random job',
+      desc: 'SOMSFSDFDF:SJKDF:LSKDJF',
+      isComplete: true,
+    },
+    {
+      id: 1,
+      title: 'SOme random job',
+      desc: 'SOMSFSDFDF:SJKDF:LSKDJF',
+      isComplete: false,
+    },
+    {
+      id: 1,
+      title: 'SOme random job',
+      desc: 'SOMSFSDFDF:SJKDF:LSKDJF',
+      isComplete: true,
+    },
+  ];
 </script>
 
 <div>
   <h2>here is your lists</h2>
   <ul>
-   {#each todos as todo }
-      <li class={`${todo.isComplete ? "done":"not-done"}`}>
+    {#each todos as todo}
+      <li class={`${todo.isComplete ? 'done' : 'not-done'}`}>
         <h3>
           {todo.title}
         </h3>
@@ -39,15 +40,15 @@
         </p>
         isComplete:{todo.isComplete}
       </li>
-      {/each}
-    </ul>
+    {/each}
+  </ul>
 </div>
 
 <style>
-  .done{
+  .done {
     text-decoration: line-through;
   }
-  .not-done{
+  .not-done {
     text-decoration: underline;
   }
 </style>
