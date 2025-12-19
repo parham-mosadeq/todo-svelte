@@ -35,9 +35,7 @@
     loading = false;
   }
 
-  function handleSubmit(event: SubmitEvent) {
-    event.preventDefault();
-
+  function handleSubmit() {
     const trimmed = newTodo.trim();
     if (trimmed === '') return;
 
@@ -72,7 +70,7 @@
   <h1 class="text-3xl font-bold tracking-wider text-gray-800">My Todos</h1>
 
   <!-- Add Todo Form -->
-  <form on:submit={handleSubmit} class="flex gap-4 w-full max-w-md">
+  <form on:submit|preventDefault={handleSubmit} class="flex gap-4 w-full max-w-md">
     <input
       bind:value={newTodo}
       placeholder="Enter a new todo..."
