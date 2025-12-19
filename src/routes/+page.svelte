@@ -1,5 +1,4 @@
 <script>
-  import TodoLists from "../components/todo-lists.svelte";
 </script>
 
 <svelte:head>
@@ -13,5 +12,3 @@
   add a todo
 </a>
  
-
-<TodoLists/>
