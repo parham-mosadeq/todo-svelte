@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 </script>
 
 <svelte:head>
@@ -7,8 +7,15 @@
 
 </svelte:head>
 
-<h1>See all todos here</h1>
-<a href="todo">
-  add a todo
-</a>
+<div>
+<h1 class="bg-red-500">hello world</h1>
+<div class="bg-blue-500 text-white p-8 rounded-lg shadow-md">
+  Hello Tailwind in Svelte!
+</div>
+</div>
  
+
+<style lang="postcss">
+  @reference "tailwindcss";
+ 
+</style>
